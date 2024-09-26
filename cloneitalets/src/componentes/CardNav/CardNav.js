@@ -33,7 +33,7 @@ const CardNav = () =>{
     ];
 
     return(
-        <div className = "CardNav">
+        <div className = "CardNav-Container">
           {funcionalidades.map((funcionalidade, index) =>(
             <button key={index} className = "CardNav">
                 <img className = "icon" src ={funcionalidade .icon} alt = {funcionalidade .nome}/>

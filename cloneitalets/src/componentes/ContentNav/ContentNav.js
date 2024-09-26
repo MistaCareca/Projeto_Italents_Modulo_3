@@ -1,8 +1,11 @@
 import './ContentNav.css';
+import Conteudo from '../Conteudo/Conteudo';
 
 const ContentNav = () => {
     return(
-        <div></div>
+        <div className = 'ContentNav'>
+            <Conteudo/>
+        </div>
     );
 }
 
