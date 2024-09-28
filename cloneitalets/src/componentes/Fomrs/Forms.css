@@ -1,0 +1,12 @@
+/* Forms.css */
+.Formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .titulo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  

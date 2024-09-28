@@ -1,0 +1,13 @@
+/* Header.css */
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .Titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  

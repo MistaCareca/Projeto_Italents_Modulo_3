@@ -1,0 +1,20 @@
+/* CardNav.css */
+.CardNav-Container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .CardNav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .CardNav img {
+    margin-right: 10px;
+  }
+  

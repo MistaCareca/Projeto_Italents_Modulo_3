@@ -10,13 +10,32 @@ import User from './componentes/User/User.js';
 function App() {
   return (
     <div className="App">
-      <NavBar>
-        <CardNav/> 
-      </NavBar>    
-      <Content/>
-      <ContentNav/>
-      <Header/>
-      <User/>
+      <div className="container">
+        <header className="header">
+          <Header />
+          <User />
+        </header>
+        
+        <aside className="side-nav">
+          <CardNav />
+        </aside>
+        
+        <nav className="nav-bar">
+          <NavBar />
+        </nav>
+        
+        <main className="content">
+          <Content />
+        </main>
+
+        <aside className="content-nav">
+          <ContentNav />
+        </aside>
+
+        <div className="forms-section">
+          <Forms />
+        </div>
+      </div>
     </div>
   );
 }

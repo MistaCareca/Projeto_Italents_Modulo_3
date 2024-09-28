@@ -1,0 +1,12 @@
+/* NavBar.css */
+.NavBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
